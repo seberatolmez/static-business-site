@@ -2,7 +2,7 @@ import Image from "next/image";
 import { FaPhone, FaWhatsapp } from 'react-icons/fa';
 
 export default function Home() {
-  const phoneNumber = "+90 541 676 5318"; // Telefon numarasını buraya ekleyin
+  const phoneNumber = "+90 541 676 5318"; 
 
   return (
     <main className="min-h-screen">
@@ -79,7 +79,7 @@ export default function Home() {
 </section>
 
 
-      {/* Hizmet Tanıtımı - SEO Uyumlu */}
+      {/* Hizmet Tanıtımı*/}
 <section className="bg-gray-50 py-16">
   <div className="container mx-auto px-4">
     <h2 className="text-4xl font-bold text-center mb-8 text-gray-800">
